@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.showcase {
+    background-image: url("../Img/manStudying.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
