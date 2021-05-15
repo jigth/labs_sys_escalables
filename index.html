@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Clases en Medellín</title>
+</head>
+<body>
+    <header class="navbar" role="navigation">
+        <p><a href="index.html">Clases en Medellin</a></p>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html#materias">Materias</a></li> 
+                <li><a href="index.html#about">Acerca de</a></li> 
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="showcase">
+        <div class="image-section">
+            <div class="header-content">
+                <h1>Clases en Medellín</h1>
+                <h3>Clases personalizadas y servicio de calidad para que aprendas fácilmente</h3>
+                <br>
+                <p>Química, Física, Trigonometría, Matemáticas y mucho más...</p>
+            </div> 
+        </div> 
+    </section>
+    <section class="content-section">
+        <section class="content-section-wrapper">
+            <h1 id="materias" >Nuestras Materias</h1>
+            <ul>
+                <li>Materia 1</li>
+                <li>Materia 2</li>
+                <li>Materia 3</li>
+            </ul> 
+        </section>
+    </section>
+    <section class="content-section">
+        <section class="content-section-wrapper">
+            <h1 id="about">Acerca de</h1>
+            <p>Descripción concisa y llamativa sobre las personas y actividades centrales del negocio, acá se informa al usuario sobre los servicios prestados.</p>
+        </section>
+    </section>
+    <section class="content-section">
+        <section class="content-section-wrapper">
+            <h1 id="contacto">Contacto</h1>
+            <img width="50%" src="images/books.jpeg"> 
+            <p>Si tienes alguna inquietud sobre nuestros servicios o sobre nuestros métodos de enseñanza contáctanos rellenando el formulario de abajo y enviando tu mensaje, estaremos encantados de ayudarte!</p>
+            <h2>Contáctanos!</h2>
+            <form method="POST" action="mailto:test@test.es">
+                <div class="form-control">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Tu nombre">
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-control">
+                    <label for="message">Tu Mensaje</label>
+                    <textarea placeholder="Escribe tu mensaje aquí..."></textarea> 
+                </div>
+                <input type="submit" value="Enviar Mensaje">
+            </form>
+        </section>
+    </section>
+</body>
+</html>
